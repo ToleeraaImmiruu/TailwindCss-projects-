@@ -2,6 +2,7 @@
 
 import Navbar from "./components/Navbar"
 import Hero  from "./components/Hero"
+import Purpose  from "./components/Porpuse"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <div className=""> 
       <Navbar/>
       <Hero/>
+      <Purpose/>
       </div>
   )
 } 

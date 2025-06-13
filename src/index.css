@@ -2,3 +2,17 @@
 .radial-blue{
   background: radial-gradient(lightyellow,skyblue);
 }
+.animate-marquee{
+  animation:marquee 100s linear infinite
+}
+@keyframes marquee{
+  0% {
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
