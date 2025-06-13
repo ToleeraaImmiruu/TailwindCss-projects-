@@ -1,13 +1,16 @@
 
-import Project from "./proj1"
+
+import Navbar from "./components/Navbar"
+import Hero  from "./components/Hero"
+
 function App() {
 
 
   return(
-    <> 
-      <Project />
-      <p></p>
-      </>
+    <div className=""> 
+      <Navbar/>
+      <Hero/>
+      </div>
   )
 } 
 export default App
