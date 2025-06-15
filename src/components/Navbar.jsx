@@ -2,6 +2,9 @@ import { useState } from "react";
 import Logo from "../assets/images1.png"; 
 import { HiMenu, HiX } from "react-icons/hi";
 
+import { Link } from "react-router-dom";
+
+
 
 
 function Navbar() {
@@ -40,10 +43,16 @@ const [ActiveLink, SetActiveLink] = useState("#home");
             >{link.label}</a>))
             }
           </div>
-        <div className="hidden sm:block bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 text-sm
-        font-medium transition-all hover:shadow-lg hover:shadow-blue-100 ">
-          <a href="#login">Get in touch</a>
-        </div>
+        
+
+
+<Link
+  to="/login"
+  className="hidden sm:block bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 text-sm font-medium transition-all hover:shadow-lg hover:shadow-blue-100"
+>
+  Get in touch
+</Link>
+
     
       </div>
 

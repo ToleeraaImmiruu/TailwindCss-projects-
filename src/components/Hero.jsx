@@ -133,24 +133,22 @@ function Hero() {
           className="w-20 h-20 rounded-full ml-4 md:ml-2"
         />
         <h1 className="font-bold md:text-lg px-5 py-3 text-blue-800 bg-blue-50 rounded-full">
-          ARARA TV WORLD WIDE
+          VOLUNTARY SERVICES IN THE COMMUNITY   
         </h1>
       </div>
 
       <div className="space-y-4 text-gray-700 font-semibold">
-        <h1>They give the services to the people twice per week.</h1>
-        <h1>
-          Their messaging emphasizes miraculous works, prophecies, and healing
-          ministries, particularly in Nekemte. References to anointed ministers
-          performing healing at crusades suggest they emphasize the active
-          working of the Holy Spirit.
-        </h1>
-        <h1>
-          The content—sermons, prophecy nights, crusades—reflects a focus on
-          bringing the Word of God directly to people through spiritual renewal
-          and miracles.
-        </h1>
-      </div>
+  <h1>They actively engage in community outreach and voluntary services throughout the year.</h1>
+  <h1>
+              Church members participate in cleaning campaigns, blood donation drives, and supporting the elderly and vulnerable in local neighborhoods.
+            
+  </h1>
+  <h1>
+              Through these acts of service, they demonstrate Christ’s love practically, showing compassion, unity, and social responsibility across the community.
+              and we need you all support to full fill this community based supporting our people 
+  </h1>
+</div>
+
 
       <button className="block md:hidden bg-blue-600 text-white rounded-xl px-8 py-3 mt-6 hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600 transition duration-300">
         Next
