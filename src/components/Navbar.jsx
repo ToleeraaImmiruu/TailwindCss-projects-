@@ -15,7 +15,8 @@ const [ActiveLink, SetActiveLink] = useState("#home");
     {href:"#home",label:"Home"},
     {href:"#about",label:"About"},
     {href:"#services",label:"Our Services"},
-    {href:"#testimonial",label:"Testimonial"},
+    {href:"#testimonial",label:"Our Programs"},
+    {href:"#dhugabahuu",label:"Testimonials"},
     {href:"#contact",label:"Contact Us"},
   ]
   return (
